@@ -15,7 +15,7 @@ basic.pause(500)
 basic.clearScreen()
 
 // when "A" is pressed, the pixels move down in a diagnol
-input.onButtonPressed(Button.A, function() {
+input.onButtonPressed (Button.A, function() {
   // setup
   basic.clearScreen()
   loopCounter = 0
@@ -32,7 +32,7 @@ input.onButtonPressed(Button.A, function() {
 })
 
 // when "B" is pressed, the pixels move around the outside edge of the LED matrix
-input.onButtonPressed(Button.B, function() {
+input.onButtonPressed (Button.B, function() {
   // setup
   basic.clearScreen()
   loopCounter = 5
